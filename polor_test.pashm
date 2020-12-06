@@ -3,3 +3,5 @@ import 'polor.pashm'
 use polor
 
 println $FgBlue + 'Pashmak'
+println $BgHiGreen + $FgHiBlack + 'programming'
+println $Bold + 'language'
