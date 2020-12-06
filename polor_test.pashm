@@ -1,0 +1,5 @@
+import 'polor.pashm'
+
+use polor
+
+println $FgBlue + 'Pashmak'
