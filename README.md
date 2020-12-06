@@ -20,3 +20,6 @@ the output is:
     style=""
   />
 </div>
+
+# Wiki
+<p>For more examples click <a href="https://github.com/sami2020pro/polor-pashm/wiki">here</a></p>
