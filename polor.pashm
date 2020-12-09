@@ -33,14 +33,14 @@ namespace polor
 
 	struct FHITC 
 		# Foreground Hi-Intensity text colors
-		$HiBlack   = '\x1b[90m'
-		$HiRed     = '\x1b[91m'
-		$HiGreen   = '\x1b[92m'
-		$HiYellow  = '\x1b[93m'
-		$HiBlue    = '\x1b[94m'
-		$HiMagenta = '\x1b[95m'
-		$HiCyan    = '\x1b[96m'
-		$HiWhite   = '\x1b[97m'
+		$HighBlack   = '\x1b[90m'
+		$HighRed     = '\x1b[91m'
+		$HighGreen   = '\x1b[92m'
+		$HighYellow  = '\x1b[93m'
+		$HighBlue    = '\x1b[94m'
+		$HighMagenta = '\x1b[95m'
+		$HighCyan    = '\x1b[96m'
+		$HighWhite   = '\x1b[97m'
 	endstruct 
 
 	$fhitc = ^ new FHITC 
@@ -61,14 +61,14 @@ namespace polor
 
 	struct BHITC
 		# Background Hi-Intensity text colors 
-		$HiBlack   = '\x1b[100m'
-		$HiRed     = '\x1b[101m'
-		$HiGreen   = '\x1b[102m'
-		$HiYellow  = '\x1b[103m'
-		$HiBlue    = '\x1b[104m'
-		$HiMagenta = '\x1b[105m'
-		$HiCyan    = '\x1b[106m'
-		$HiWhite   = '\x1b[107m'
+		$HighBlack   = '\x1b[100m'
+		$HighRed     = '\x1b[101m'
+		$HighGreen   = '\x1b[102m'
+		$HighYellow  = '\x1b[103m'
+		$HighBlue    = '\x1b[104m'
+		$HighMagenta = '\x1b[105m'
+		$HighCyan    = '\x1b[106m'
+		$HighWhite   = '\x1b[107m'
 	endstruct 
 
 	$bhitc = ^ new BHITC 
