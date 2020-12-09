@@ -19,28 +19,28 @@ namespace polor
 
 	struct FTC
 		# Foreground text colors
-		$FgBlack   = '\x1b[30m'
-		$FgRed     = '\x1b[31m'
-		$FgGreen   = '\x1b[32m'
-		$FgYellow  = '\x1b[33m'
-		$FgBlue    = '\x1b[34m'
-		$FgMagenta = '\x1b[35m'
-		$FgCyan    = '\x1b[36m'
-		$FgWhite   = '\x1b[37m'
+		$Black   = '\x1b[30m'
+		$Red     = '\x1b[31m'
+		$Green   = '\x1b[32m'
+		$Yellow  = '\x1b[33m'
+		$Blue    = '\x1b[34m'
+		$Magenta = '\x1b[35m'
+		$Cyan    = '\x1b[36m'
+		$White   = '\x1b[37m'
 	endstruct 
 
 	$ftc = ^ new FTC
 
 	struct FHITC 
 		# Foreground Hi-Intensity text colors
-		$HighBlack   = '\x1b[90m'
-		$HighRed     = '\x1b[91m'
-		$HighGreen   = '\x1b[92m'
-		$HighYellow  = '\x1b[93m'
-		$HighBlue    = '\x1b[94m'
-		$HighMagenta = '\x1b[95m'
-		$HighCyan    = '\x1b[96m'
-		$HighWhite   = '\x1b[97m'
+		$HiBlack   = '\x1b[90m'
+		$HiRed     = '\x1b[91m'
+		$HiGreen   = '\x1b[92m'
+		$HiYellow  = '\x1b[93m'
+		$HiBlue    = '\x1b[94m'
+		$HiMagenta = '\x1b[95m'
+		$HiCyan    = '\x1b[96m'
+		$HiWhite   = '\x1b[97m'
 	endstruct 
 
 	$fhitc = ^ new FHITC 
@@ -61,14 +61,14 @@ namespace polor
 
 	struct BHITC
 		# Background Hi-Intensity text colors 
-		$HighBlack   = '\x1b[100m'
-		$HighRed     = '\x1b[101m'
-		$HighGreen   = '\x1b[102m'
-		$HighYellow  = '\x1b[103m'
-		$HighBlue    = '\x1b[104m'
-		$HighMagenta = '\x1b[105m'
-		$HighCyan    = '\x1b[106m'
-		$HighWhite   = '\x1b[107m'
+		$HiBlack   = '\x1b[100m'
+		$HiRed     = '\x1b[101m'
+		$HiGreen   = '\x1b[102m'
+		$HiYellow  = '\x1b[103m'
+		$HiBlue    = '\x1b[104m'
+		$HiMagenta = '\x1b[105m'
+		$HiCyan    = '\x1b[106m'
+		$HiWhite   = '\x1b[107m'
 	endstruct 
 
 	$bhitc = ^ new BHITC 

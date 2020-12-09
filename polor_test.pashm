@@ -8,6 +8,6 @@ use polor
 # println $Bold + 'language'
 
 # new version #
-println $ftc->['FgBlue'] + 'Pashmak' 
-println $bhitc->['BgHiGreen'] + $fhitc->['FgHiBlack'] + 'programming' + $ba->['Reset']
+println $ftc->['Blue'] + 'Pashmak' 
+println $bhitc->['HiGreen'] + $fhitc->['HiBlack'] + 'programming' + $ba->['Reset']
 println $ba->['Bold'] + 'language'
