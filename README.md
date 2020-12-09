@@ -19,8 +19,8 @@ import 'polor.pashm'
 
 use polor
 
-println $ftc->['FgBlue'] + 'Pashmak'
-println $bhitc->['BgHiGreen'] + $fhitc->['FgHiBlack'] + 'programming' + $ba->['>
+println $ftc->['Blue'] + 'Pashmak'
+println $bhitc->['HiGreen'] + $fhitc->['HiBlack'] + 'programming' + $ba->['Reset']
 println $ba->['Bold'] + 'language'
 ```
 
