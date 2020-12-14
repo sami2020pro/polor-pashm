@@ -3,7 +3,7 @@ polor is simple **Terminal Color** library for _Pashmak_ programming language.
 
 # preview
 Version 1
-```html
+```bash
 import 'polor.pashm'
 
 use polor
@@ -14,14 +14,14 @@ println $Bold + 'language'
 ```
 
 Version 2 
-```html
+```bash
 import 'polor.pashm'
 
 use polor
 
-println $ftc->['Blue'] + 'Pashmak'
-println $bhitc->['HiGreen'] + $fhitc->['HiBlack'] + 'programming' + $ba->['Reset']
-println $ba->['Bold'] + 'language'
+println $ftc->Blue + 'Pashmak'
+println $bhitc->HiGreen + $fhitc->HiBlack + 'programming' + $ba->Reset
+println $ba->Bold + 'language'
 ```
 
 In the new update, Pashmak Structures were added and we also updated this library.
