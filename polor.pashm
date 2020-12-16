@@ -15,7 +15,7 @@ namespace polor
 		$CrossedOut   = '\x1b[9m'
 	endclass
 
-	$ba = ^ new BA
+	$ba = %{ new BA }%
 
 	class FTC
 		# Foreground text colors
@@ -29,7 +29,7 @@ namespace polor
 		$White   = '\x1b[37m'
 	endclass
 
-	$ftc = ^ new FTC
+	$ftc = %{ new FTC }%
 
 	class FHITC 
 		# Foreground Hi-Intensity text colors
@@ -43,7 +43,7 @@ namespace polor
 		$HiWhite   = '\x1b[97m'
 	endclass
 
-	$fhitc = ^ new FHITC 
+	$fhitc = %{ new FHITC }%
 
 	class BTC 
 		# Background text colors 
@@ -57,7 +57,7 @@ namespace polor
 		$White   = '\x1b[47m'
 	endclass
 
-	$btc = ^ new BTC 
+	$btc = %{ new BTC }%
 
 	class BHITC
 		# Background Hi-Intensity text colors 
@@ -71,5 +71,5 @@ namespace polor
 		$HiWhite   = '\x1b[107m'
 	endclass
 
-	$bhitc = ^ new BHITC 
+	$bhitc = %{ new BHITC }%
 endns
