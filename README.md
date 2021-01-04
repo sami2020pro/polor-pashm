@@ -1,5 +1,5 @@
-# polor-pashm
-polor is simple **Terminal Color** library for _Pashmak_ programming language.
+# polor pashm
+polor pashm is an ANSI color library for __Pashmak programming language__ 
 
 # preview
 Version 1
