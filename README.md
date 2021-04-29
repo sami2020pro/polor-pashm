@@ -1,6 +1,13 @@
 # polor pashm
 polor pashm is an ANSI color library for __Pashmak programming language__ 
 
+### Installation
+To install this library via the Parham package manager:
+
+```bash
+$ parham install gh:sami2020pro/polor-pashm
+```
+
 # preview
 Version 1
 ```bash
