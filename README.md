@@ -1,6 +1,13 @@
 # polor-pashm
 polor is simple **Terminal Color** library for _Pashmak_ programming language.
 
+### Installation
+To install this library via the Parham package manager:
+
+```bash
+$ parham install gh:sami2020pro/polor-pashm
+```
+
 # preview
 Version 1
 ```bash
